@@ -1,8 +1,18 @@
 package TareaSOLID;
 
 
-public interface Subject {
+public class Subject {
+	private String name;
+	private String semester;
 	
-	public String subject();
+	
+	public Subject(String name, String semester){
+		this.name=name;
+		this.semester=semester;
+	}
+	
+	public String getName(){
+		return this.name;
+	}
 
 }

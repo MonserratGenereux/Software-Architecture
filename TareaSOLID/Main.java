@@ -19,8 +19,16 @@ public class Main {
 	    
 	    LinkedList<String> enrollment = new LinkedList<>();
 	    TotalSubjects total = new TotalSubjects();
+	    Subject OOP = new Subject("OOP","1");
+	    total.addSubject(OOP);
+	    Subject Math = new Subject("Math","1");
+	    total.addSubject(Math);
+	    Subject Math2 = new Subject("Math2","1");
+	    total.addSubject(Math2);
 	    
-		do{
+	    total.getSubject("OOP");
+	    
+		/*do{
 		      System.out.println("Which subject you like to enroll?");
 		      answer = scanner.nextLine();
 		      if(total.subject().contains(answer)){
@@ -33,11 +41,10 @@ public class Main {
 		    	  
 		      }
 		          
-		}while(!"Exit".equals(answer));  
+		}while(!"Exit".equals(answer)); */ 
 		
 		
-		System.out.println(enrollment.toString());
-		System.out.println(total.subjects.toString());
+	
 
 	}
 
