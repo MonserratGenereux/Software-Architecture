@@ -122,7 +122,7 @@ public class MonserratSanchezTest {
 	
 	
 	public static void main(String[] args){
-		TDDMapTest map = new TDDMapTest();
+		MonserratSanchezTest map = new MonserratSanchezTest();
 		
 		map.testPutItem();
 		map.testClearItems();
