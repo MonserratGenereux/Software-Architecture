@@ -1,22 +1,20 @@
-package TDDTarea;
+package mx.jzab.edu.tdd;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.NoSuchElementException;
 
-public class TDDMap<K, V> implements IMap<K, V>{
+public class MonserratSanchezMap<K, V> implements IMap<K, V>{
 	
 	private int size;
-	private Object[] arr = new Object[103];
+	private Object[] arr = new Object[25];
 	
-	
-	// My methods 
+	 
 	private int hash(Object key){
 		return Math.abs(key.hashCode()%this.arr.length);
 	}
 	
 	
-	//The interface methods
 	@Override
 	public void clear() {
 		this.arr = new Object[103];
@@ -97,4 +95,3 @@ public class TDDMap<K, V> implements IMap<K, V>{
 	}
 
 }
-

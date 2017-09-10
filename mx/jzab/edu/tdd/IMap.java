@@ -1,4 +1,4 @@
-package TDDTarea;
+package mx.jzab.edu.tdd;
 
 import java.util.Collection;
 import java.util.NoSuchElementException;
