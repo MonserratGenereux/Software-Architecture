@@ -3,7 +3,7 @@ package mx.jzab.edu.tdd;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class MonserratSanchezTest {
+public class MonserratSanchezMapTest {
 	
 	@Test
 	public void testPutItem(){
@@ -123,7 +123,7 @@ public class MonserratSanchezTest {
 	
 	
 	public static void main(String[] args){
-		MonserratSanchezTest map = new MonserratSanchezTest();
+		MonserratSanchezMapTest map = new MonserratSanchezMapTest();
 		
 		map.testPutItem();
 		map.testClearItems();
