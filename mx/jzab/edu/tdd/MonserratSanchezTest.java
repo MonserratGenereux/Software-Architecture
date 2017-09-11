@@ -11,6 +11,7 @@ public class MonserratSanchezTest {
 		map.put("Monserrat", 24);
 		map.put("Alejandro", 60);
 		map.put("Eduardo", 33);
+		map.put("Eduardo", 44);
 		
 		Assert.assertEquals(3, map.size());
 	}
